@@ -23,5 +23,5 @@ window.Webflow.push(() => {
   scrolldisable();
   modal();
   swipers();
-  //typer();
+  typer();
 });
