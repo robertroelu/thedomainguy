@@ -13,15 +13,19 @@ import { nestedElement } from './nest/nestElement';
 //Utils
 import { swipers } from '$utils/swipers';
 import { typer } from '$utils/typer';
+import { inputText } from '$utils/inputText';
+import { escrow } from '$utils/escrow';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  nestedElement();
+  //nestedElement();
   linkblockedit();
   sort();
   filter();
   scrolldisable();
-  modal();
-  swipers();
-  typer();
+  //modal();
+  //swipers();
+  //typer();
+  inputText();
+  escrow();
 });
