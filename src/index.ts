@@ -25,7 +25,7 @@ window.Webflow.push(() => {
   scrolldisable();
   //modal();
   //swipers();
-  //typer();
+  typer();
   inputText();
   escrow();
 });
