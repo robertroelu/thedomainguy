@@ -15,9 +15,11 @@ import { swipers } from '$utils/swipers';
 import { typer } from '$utils/typer';
 import { inputText } from '$utils/inputText';
 import { escrow } from '$utils/escrow';
+import { consoleClear } from '$utils/consoleClear';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
+  // consoleClear();
   //nestedElement();
   linkblockedit();
   sort();
