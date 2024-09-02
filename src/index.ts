@@ -19,7 +19,7 @@ import { consoleClear } from '$utils/consoleClear';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  // consoleClear();
+  consoleClear();
   //nestedElement();
   linkblockedit();
   sort();
